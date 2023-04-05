@@ -19,6 +19,9 @@
 	border-radius: 5px;
 	cursor: pointer;
 }
+.calculator equal {
+	width: 100px;
+}
 
 .calculator input[type="text"] {
 	width: 200px;
