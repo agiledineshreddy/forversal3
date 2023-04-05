@@ -1,6 +1,7 @@
 function Display(value) {
 	// Append the button value to the display
 	document.getElementById("display").value += value;
+	document.getElementById("display1").value=eval(display.value);
 }
 function calculate() {
 	// Evaluate the expression in the display
